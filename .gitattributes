@@ -1,0 +1,7 @@
+# Line endings: every text file is stored and checked out with LF, so that a
+# fresh clone, this working tree and the committed blobs are byte-identical.
+* text=auto eol=lf
+
+# Binaries: never normalise, never diff.
+*.png binary
+*.pdf binary

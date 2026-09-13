@@ -1,0 +1,359 @@
+{
+  "meta": {
+    "computed_at": "2026-09-11T02:32:00+08:00",
+    "status": "AI-EXPERIMENTAL-TEST",
+    "param_ver": "l2-2.2-exp",
+    "experimental": true,
+    "note": "EXPERIMENTAL (NOT final) — l2-2.2-exp experimental parameter set; AI-EXPERIMENTAL-TEST; snapshot archive, not V1, not final."
+  },
+  "membership": {
+    "constituent_count": 10,
+    "universe_rev": 46,
+    "states": {
+      "ANTH": "INCLUDED",
+      "DS": "INCLUDED",
+      "GDM": "INCLUDED",
+      "KIMI": "INCLUDED",
+      "MAI": "INCLUDED",
+      "MIST": "SHADOW",
+      "MM": "INCLUDED",
+      "OAI": "INCLUDED",
+      "QWEN": "INCLUDED",
+      "XAI": "INCLUDED",
+      "YI": "SHADOW",
+      "ZAI": "INCLUDED"
+    }
+  },
+  "capability": {
+    "QWEN": 0.7547,
+    "XAI": 0.7663,
+    "ANTH": 0.9792,
+    "ZAI": 0.713,
+    "OAI": 0.9157,
+    "KIMI": 0.7213,
+    "MIST": 0.4974,
+    "GDM": 0.7946,
+    "YI": 0.7294,
+    "DS": 0.7393,
+    "MAI": 0.7172,
+    "MM": 0.5397
+  },
+  "edge": {
+    "ANTH": 0.0,
+    "DS": 0.4388,
+    "GDM": 0.4802,
+    "KIMI": 0.0797,
+    "MAI": 0.3839,
+    "MIST": 0.2518,
+    "MM": 0.0,
+    "OAI": 0.2829,
+    "QWEN": 1.0,
+    "XAI": 0.0,
+    "YI": 0.0,
+    "ZAI": 0.0
+  },
+  "market": {
+    "QWEN": 0.3312,
+    "XAI": 0.2053,
+    "ANTH": 0.1429,
+    "ZAI": 0.5057,
+    "OAI": 0.2602,
+    "KIMI": 0.1679,
+    "MIST": 0.1582,
+    "GDM": 0.515,
+    "YI": 0.0295,
+    "DS": 0.8436,
+    "MAI": 0.2498,
+    "MM": 0.52
+  },
+  "capability_merged": {
+    "ANTH": 0.8976,
+    "DS": 0.7142,
+    "GDM": 0.7684,
+    "KIMI": 0.6678,
+    "MAI": 0.6894,
+    "MIST": 0.477,
+    "MM": 0.4947,
+    "OAI": 0.8629,
+    "QWEN": 0.7751,
+    "XAI": 0.7024,
+    "YI": 0.6687,
+    "ZAI": 0.6536
+  },
+  "ecosystem_merged": {
+    "ANTH": 0.3022,
+    "DS": 0.837,
+    "GDM": 0.7409,
+    "KIMI": 0.3461,
+    "MAI": 0.4448,
+    "MIST": 0.4415,
+    "MM": 0.4833,
+    "OAI": 0.4793,
+    "QWEN": 0.5583,
+    "XAI": 0.2974,
+    "YI": 0.2107,
+    "ZAI": 0.5831
+  },
+  "merged_blocks": {
+    "capability_merged": {
+      "ANTH": {
+        "capability": 0.897565,
+        "edge": 0.0
+      },
+      "DS": {
+        "capability": 0.677663,
+        "edge": 0.036566
+      },
+      "GDM": {
+        "capability": 0.728367,
+        "edge": 0.04002
+      },
+      "KIMI": {
+        "capability": 0.661154,
+        "edge": 0.006641
+      },
+      "MAI": {
+        "capability": 0.657439,
+        "edge": 0.031991
+      },
+      "MIST": {
+        "capability": 0.455987,
+        "edge": 0.020986
+      },
+      "MM": {
+        "capability": 0.4947,
+        "edge": 0.0
+      },
+      "OAI": {
+        "capability": 0.839359,
+        "edge": 0.023575
+      },
+      "QWEN": {
+        "capability": 0.69178,
+        "edge": 0.083333
+      },
+      "XAI": {
+        "capability": 0.702413,
+        "edge": 0.0
+      },
+      "YI": {
+        "capability": 0.668661,
+        "edge": 0.0
+      },
+      "ZAI": {
+        "capability": 0.653603,
+        "edge": 0.0
+      }
+    },
+    "ecosystem_merged": {
+      "ANTH": {
+        "dev": 0.117268,
+        "academic": 0.131407,
+        "market": 0.053574
+      },
+      "DS": {
+        "dev": 0.310671,
+        "academic": 0.210021,
+        "market": 0.316353
+      },
+      "GDM": {
+        "dev": 0.235276,
+        "academic": 0.3125,
+        "market": 0.193123
+      },
+      "KIMI": {
+        "dev": 0.25393,
+        "academic": 0.029179,
+        "market": 0.062969
+      },
+      "MAI": {
+        "dev": 0.245533,
+        "academic": 0.105564,
+        "market": 0.093686
+      },
+      "MIST": {
+        "dev": 0.238045,
+        "academic": 0.144102,
+        "market": 0.059315
+      },
+      "MM": {
+        "dev": 0.210758,
+        "academic": 0.077571,
+        "market": 0.194989
+      },
+      "OAI": {
+        "dev": 0.108761,
+        "academic": 0.272926,
+        "market": 0.097574
+      },
+      "QWEN": {
+        "dev": 0.273006,
+        "academic": 0.161087,
+        "market": 0.124191
+      },
+      "XAI": {
+        "dev": 0.217786,
+        "academic": 0.002636,
+        "market": 0.076997
+      },
+      "YI": {
+        "dev": 0.196978,
+        "academic": 0.002636,
+        "market": 0.011079
+      },
+      "ZAI": {
+        "dev": 0.249921,
+        "academic": 0.14356,
+        "market": 0.189642
+      }
+    }
+  },
+  "fa_raw": {
+    "DS": 76.34,
+    "GDM": 75.74,
+    "OAI": 70.95,
+    "QWEN": 68.84,
+    "ANTH": 65.94,
+    "ZAI": 62.54,
+    "MAI": 59.16,
+    "XAI": 54.04,
+    "KIMI": 53.91,
+    "MM": 49.01,
+    "YI": 48.55,
+    "MIST": 46.28
+  },
+  "fa_adj": {
+    "DS": 78.23,
+    "GDM": 77.85,
+    "OAI": 73.03,
+    "QWEN": 70.04,
+    "ANTH": 68.83,
+    "ZAI": 63.59,
+    "MAI": 60.53,
+    "XAI": 54.95,
+    "KIMI": 54.77,
+    "MM": 49.98,
+    "YI": 48.77,
+    "MIST": 46.71
+  },
+  "fa_s_dims": {
+    "QWEN": {
+      "capability_merged": 0.7751,
+      "ecosystem_merged": 0.5583
+    },
+    "XAI": {
+      "capability_merged": 0.7024,
+      "ecosystem_merged": 0.2974
+    },
+    "ANTH": {
+      "capability_merged": 0.8976,
+      "ecosystem_merged": 0.3022
+    },
+    "KIMI": {
+      "capability_merged": 0.6678,
+      "ecosystem_merged": 0.3461
+    },
+    "OAI": {
+      "capability_merged": 0.8629,
+      "ecosystem_merged": 0.4793
+    },
+    "MIST": {
+      "capability_merged": 0.477,
+      "ecosystem_merged": 0.4415
+    },
+    "GDM": {
+      "capability_merged": 0.7684,
+      "ecosystem_merged": 0.7409
+    },
+    "YI": {
+      "capability_merged": 0.6687,
+      "ecosystem_merged": 0.2107
+    },
+    "MM": {
+      "capability_merged": 0.4947,
+      "ecosystem_merged": 0.4833
+    },
+    "DS": {
+      "capability_merged": 0.7142,
+      "ecosystem_merged": 0.837
+    },
+    "MAI": {
+      "capability_merged": 0.6894,
+      "ecosystem_merged": 0.4448
+    },
+    "ZAI": {
+      "capability_merged": 0.6536,
+      "ecosystem_merged": 0.5831
+    }
+  },
+  "d_pct": {
+    "QWEN": 0.0175,
+    "XAI": 0.0167,
+    "ANTH": 0.0437,
+    "KIMI": 0.0159,
+    "OAI": 0.0293,
+    "MIST": 0.0094,
+    "GDM": 0.0279,
+    "YI": 0.0046,
+    "MM": 0.0197,
+    "DS": 0.0248,
+    "MAI": 0.0231,
+    "ZAI": 0.0168
+  },
+  "fa_influence": {
+    "capability_merged": {
+      "w": 0.6,
+      "range": 0.4029,
+      "w_range": 0.2417,
+      "share_pct": 52.8
+    },
+    "ecosystem_merged": {
+      "w": 0.4,
+      "range": 0.5396,
+      "w_range": 0.2159,
+      "share_pct": 47.2
+    }
+  },
+  "media": {
+    "OAI": 0.929,
+    "KIMI": 0.8557,
+    "QWEN": 0.9144,
+    "XAI": 0.7487,
+    "MIST": 0.7758,
+    "GDM": 0.9381,
+    "YI": 0.5273,
+    "ANTH": 0.7897,
+    "MM": 0.6088,
+    "DS": 1.0,
+    "MAI": 0.9557,
+    "ZAI": 0.8396
+  },
+  "dev": {
+    "QWEN": 0.873618,
+    "XAI": 0.696916,
+    "ANTH": 0.375259,
+    "ZAI": 0.799747,
+    "OAI": 0.348034,
+    "KIMI": 0.812575,
+    "MIST": 0.761743,
+    "GDM": 0.752883,
+    "YI": 0.630331,
+    "DS": 0.994148,
+    "MAI": 0.785707,
+    "MM": 0.674425
+  },
+  "academic": {
+    "QWEN": 0.515478,
+    "XAI": 0.008434,
+    "ANTH": 0.420501,
+    "ZAI": 0.459392,
+    "OAI": 0.873364,
+    "KIMI": 0.093373,
+    "MIST": 0.461127,
+    "GDM": 1.0,
+    "YI": 0.008434,
+    "DS": 0.672069,
+    "MAI": 0.337805,
+    "MM": 0.248229
+  }
+}

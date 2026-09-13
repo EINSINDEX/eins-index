@@ -1,0 +1,4 @@
+# This repository contains documents and snapshot data only; it produces no build artifacts.
+# Operating-system and editor droppings that must never be committed:
+.DS_Store
+Thumbs.db
